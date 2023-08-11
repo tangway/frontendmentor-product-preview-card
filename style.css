@@ -131,15 +131,17 @@ body {
     flex-basis: auto;
     order: 0; */
     /* end defaul values */
-    /* width: 700px; */
+    width: 50vw;
     /* margin: 0 auto; */
   }
 
-  /* .perfume-img1 {
+  .perfume-img1 {
     display: none;
   }
   .perfume-img2 {
     display:block;
-  } */
+    width: 100%;
+    /* aspect-ratio:initial ; */
+  }
 
 }
