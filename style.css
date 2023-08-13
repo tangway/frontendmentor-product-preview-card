@@ -48,6 +48,10 @@ body {
   /* object-fit: contain; */
 }
 
+/* picture {
+  object-fit: contain;
+} */
+
 /* .perfume-img2 {
   display: none;
 } */
@@ -124,7 +128,7 @@ body {
   color: hsl(228, 45%, 44%);
 } */
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 50rem) {
   .main-container {
     display: flex;
     max-width: 50vw;
