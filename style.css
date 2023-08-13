@@ -40,21 +40,15 @@ body {
   border-radius: 1rem;
   background-color: white;
   max-width: 100%;
+  /* object-fit: cover; */
 }
 
 .perfume-img1 {
   width: 100%;
   border-radius: 1rem 1rem 0rem 0rem;
-  /* object-fit: contain; */
+  object-fit: cover;
 }
 
-/* picture {
-  object-fit: contain;
-} */
-
-/* .perfume-img2 {
-  display: none;
-} */
 
 .text-container {
   display: grid;
@@ -133,9 +127,5 @@ body {
     display: flex;
     max-width: 50vw;
   }
-
-  /* .perfume-img1 {
-    object-fit: contain;
-  } */
 
 }
