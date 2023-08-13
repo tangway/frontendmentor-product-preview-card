@@ -18,7 +18,18 @@
   </head>
   <body>
     <main class="main-container">
-      <img
+      <picture>
+        <source
+          srcset="./images/image-product-desktop.jpg"
+          media="(min-width: 50rem)"
+        />
+        <img
+          class="perfume-img1"
+          src="./images/image-product-mobile.jpg"
+          alt="a picture of Chanel perfume bottle against a beige background with some leaves"
+        />
+      </picture>
+      <!-- <img
         class="perfume-img1"
         src="./images/image-product-mobile.jpg"
         alt="a picture of Chanel perfume bottle against a beige background with some leaves"
@@ -27,7 +38,7 @@
         class="perfume-img2"
         src="./images/image-product-desktop.jpg"
         alt="a picture of Chanel perfume bottle against a beige background with some leaves"
-      />
+      /> -->
       <div class="text-container">
         <p class="category-text">P E R F U M E</p>
         <h1 class="name-text">Gabrielle Essence Eau De Parfum</h1>
